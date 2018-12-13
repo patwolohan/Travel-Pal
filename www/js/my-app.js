@@ -5,6 +5,7 @@ var currencyLocal = "";
 var country = "";
 var city = "";
 var town = "";
+var visited = "";
 
 
 // If we need to use custom DOM library, let's save it to $$ variable:
@@ -364,7 +365,7 @@ function tryingFile() {
     console.log(cordova.file);
 
     // Displaying on front end
-    var visited = "";
+    //var visited = "";
     visited += "Country Visited: " + country + "<br>";
     visited += "City Visited: " + city + "<br>";"<br>";
     visited += "Town Visited: " + town + "<br>";"<br>";
