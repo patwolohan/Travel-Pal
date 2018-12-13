@@ -1,0 +1,125 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+body {
+    background-color: #6196ed;
+    text-align: center;
+}
+
+#map {
+    margin: auto;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 5px 5px 10px;
+    height: 200px;
+    font-family: arial;
+    border: 5px double lavender;
+
+}
+
+
+
+#weather {
+    margin: auto;
+    text-align: left;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 5px 5px 10px;
+    height: 200px;
+    font-family: arial;
+    border: 5px double lavender;
+}
+
+#conversion {
+    /* float: center;    */
+    margin: auto;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 5px 5px 10px;
+    height: 200px;
+    font-family: arial;
+    border: 5px double lavender;
+}
+
+#converted {
+    /* float: center;  */
+    margin: auto;
+    background-color: lightgreen;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 5px 5px 10px;
+    height: 200px;
+    font-family: arial;
+    border: 5px double lavender;
+}
+
+#travel {
+    /* float: center;  */
+    margin: auto;
+    background-color: lightgreen;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 5px 5px 10px;
+    height: 200px;
+    font-family: arial;
+    border: 5px double lavender;
+}
+
+#pic {
+    margin: auto;
+    
+    width: 300px;
+
+}
+
+#condtext {
+    text-align: left;
+}
+
+#cond {
+    float: left;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: mistyrose;
+    border-radius: 5px;
+    width: 80px;
+}
+
+#fileread {
+    margin: auto;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 5px 5px 10px;
+    height: 120px;
+    font-family: arial;
+    border: 5px double lavender;
+}
+#filewrite {
+    margin: auto;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 5px 5px 10px;
+    height: 120px;
+    font-family: arial;
+    border: 5px double lavender;
+}
