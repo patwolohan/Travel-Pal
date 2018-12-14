@@ -102,6 +102,7 @@ function cameraCallback(imageData) {
    
 }
 
+getLocation();
 
 // ----------- GEOLOCATION
 
