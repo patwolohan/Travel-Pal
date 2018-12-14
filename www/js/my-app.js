@@ -6,6 +6,7 @@ var country = "";
 var city = "";
 var town = "";
 var visited = "";
+var image;
 
 
 // If we need to use custom DOM library, let's save it to $$ variable:
@@ -94,9 +95,11 @@ function pics() {
 }
 
 function cameraCallback(imageData) {
-    var image = document.getElementById('myImage');
+    image = document.getElementById('myImage');
     //image.src = "data:image/jpeg;base64," + imageData;
     image.src = imageData;
+    
+   
 }
 
 
