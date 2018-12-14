@@ -17,19 +17,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <platform name="android">
+    <platform name="android">        
         <preference name="android-minSdkVersion" value="14" />
-        <preference name="permissions" value="all"/>
-        <!-- to enable individual permissions use the following examples -->
-        <!-- <feature name="http://api.phonegap.com/1.0/battery"/> -->
-        <!-- <feature name="http://api.phonegap.com/1.0/camera"/> -->
-        <!-- <feature name="http://api.phonegap.com/1.0/contacts"/> -->
-       <!--  <feature name="http://api.phonegap.com/1.0/file"/>
-        <feature name="http://api.phonegap.com/1.0/geolocation"/>
-        <feature name="http://api.phonegap.com/1.0/media"/>
-        <feature name="http://api.phonegap.com/1.0/network"/>
-        <feature name="http://api.phonegap.com/1.0/notification"/> -->
-
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
